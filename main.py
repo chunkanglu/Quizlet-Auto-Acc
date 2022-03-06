@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 chrome_options = Options()
 chrome_options.add_experimental_option("detach", True)
 
-DRIVER_PATH = 'C:/Users/Kang/Downloads/chromedriver_win32/chromedriver.exe'
+DRIVER_PATH = ''
 driver = webdriver.Chrome(DRIVER_PATH, options=chrome_options)
 TEXTBOOK = "https://quizlet.com/explanations/textbook-solutions/linear-algebra-with-applications-7th-edition-9781259066405?__cf_chl_tk=K1euKWI97OM_Z5kzSHe.ISrI3s111tPl4seZBcYgpck-1643038242-0-gaNycGzNC5E"
 
